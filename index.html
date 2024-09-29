@@ -1,0 +1,300 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Buff Central</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">
+                    DC
+                    </h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">DC Studios, formerly known as DC Films, is an American film and television production company that is a division of Warner Bros. Entertainment, which is a subsidiary of Warner Bros. Discovery (WBD). .</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Superman</span>
+                            <p class="movie-list-item-desc">Superman is an upcoming American superhero film based on DC Comics featuring the eponymous character. </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div> -->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">After failing to defeat Aquaman the first time, Black Manta wields the power of the mythic Black Trident to unleash an ancient and malevolent force.</p>
+                            <button><a href="https://youtu.be/UGc5Tzz19UY?si=BclGr2lqgDC9Qnj-" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Creature Commandos</span>
+                            <p class="movie-list-item-desc">Creature Commandos is an upcoming American adult animated television series based on DC Comics featuring the eponymous team. .</p>
+                            <button><a href="https://youtu.be/0CsuJoumqAk?si=y0CKF9ypbqv9q7qx" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Superman</span>
+                            <p class="movie-list-item-desc">Superman is an upcoming American superhero film based on DC Comics featuring the eponymous character.</p>
+                            <button><a href="https://youtu.be/gX-B3HMlMfY?si=RDyrqq_qsvP28NHX" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Supergirl</span>
+                            <p class="movie-list-item-desc">The first series featured the original Supergirl, Superman's cousin Kara Zor-El</p>
+                            <button><a href="https://youtu.be/COD1tDAoGXY?si=SeYtCXxWoGrUn3kX" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">The Penguin</span>
+                            <p class="movie-list-item-desc">The Penguin is an American television miniseries created by Lauren LeFranc for HBO. Based on the DC Comics character Penguin.</p>
+                            <button><a href="https://youtu.be/jE9-ZLSFKXo?si=MS8mVbg_qJOzJTJA" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button><a href="https://youtu.be/gX-B3HMlMfY?si=RDyrqq_qsvP28NHX" class="movie-list-item-button">Watch</a></button>
+                            
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">SHOWS & SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Swamp thing</span>
+                            <p class="movie-list-item-desc">
+                                A live-action drama series based on DC characters that premiered on DC Universe in 2019</p>
+                                <button><a href="https://youtu.be/xVnHZ5SF1Jg?si=tVkER1ECqUeV0Ctz" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Batman Beyond</span>
+                            <p class="movie-list-item-desc">An animated series that ran from 1999–2001, set in Gotham City in 2039. It was a direct continuation of the original Batman animated series and The New Batman Adventures.</p>
+                            <button><a href="https://youtu.be/6JHL_bDbXZA?si=3E1Rt89ZtQGFZ7Tu" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Constantine</span>
+                            <p class="movie-list-item-desc">
+                                A series based on a DC comic book about an exorcist and master of the occult who struggles with his faith</p>
+                                <button><a href="https://youtu.be/sBU8ejvW6fM?si=ArAmpVHR0Kxpcz2F" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Arrow</span>
+                            <p class="movie-list-item-desc">
+                                An action-adventure series about a castaway who returns to his hometown to get revenge on the criminals who plague his city.</p>
+                                <button><a href="https://youtu.be/_a3dNB2riKE?si=sv5MqNCOs0jBab7n" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Gotham</span>
+                            <p class="movie-list-item-desc">
+                                A series set in Gotham City, based on DC Comics characters.</p>
+                                <button><a href="https://youtu.be/LpYpn2Bx2Ug?si=oV4uNc2MCiTRuD-S" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div> -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">Batman v Superman: Dawn of Justice is a 2016 American superhero film based on the DC Comics characters Batman and Superman.</p>
+                <button><a href="https://youtu.be/wR111kcLLr8?si=rZLedMm4sCRRcOih" class="movie-list-item-button">Watch</a></button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">UPCOMING</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Black Lighting</span>
+                            <p class="movie-list-item-desc">CW and Greg Berlanti expand the footprint of their DC Comics universe with this exploration of the intersection between family life and being a superhero</p>
+                            <button><a href="https://youtu.be/3LAUGA01mUc?si=Shg-DrzeBXN0zlq8" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" sr></span>
+                            <p class="movie-list-item-desc">
+                                CW and Greg Berlanti expand the footprint of their DC Comics universe with this exploration of the intersection between family life and being a superhero.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div> -->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Batman</span>
+                            <p class="movie-list-item-desc">Batman v Superman: Dawn of Justice is a 2016 American superhero film based on the DC Comics characters Batman and Superman.</p>
+                            <button><a href="https://youtu.be/wR111kcLLr8?si=rZLedMm4sCRRcOih" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.jpg" alt="">
+                            <span class="movie-list-item-title">The Flash</span>
+                            <p class="movie-list-item-desc">                                At 11, Barry Allen's life changed completely when his mother died in a freak accident and his innocent father was convicted of her murder.</p>
+                            <button><a href="https://youtu.be/hebWYacbdvc?si=owwVVaUS22V9Ij68" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Lucifer</span>
+                            <p class="movie-list-item-desc">
+                                Based on characters created by Neil Gaiman, Sam Kieth and Mike Dringenberg, this series follows Lucifer, the original fallen angel, who has become dissatisfied with his life in hell</p>
+                                <button><a href="https://youtu.be/ueMwVGBwqRo?si=D082Mv5sxop8H0fU" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div> -->
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div> -->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">
+                                Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm</p>
+                                <button><a href="https://youtu.be/qhgKJo2DBoQ?si=KzMKvRTemJIuD5ZB" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/21.jpg" alt="">
+                            <span class="movie-list-item-title">Black Adam</span>
+                            <p class="movie-list-item-desc">In ancient Kahndaq, Teth Adam was bestowed the almighty powers of the gods</p>
+                            <button><a href="https://youtu.be/X0tOpBuYasI?si=GprFBINplngzK0pG" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Wonder Woman</span>
+                            <p class="movie-list-item-desc">Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained to be an unconquerable warrior.</p>
+                            <button><a href="https://youtu.be/1Q8fG0TtVAY?si=l2rPhPITFKLEpaAn" class="movie-list-item-button">Watch</a></button>>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Justice league</span>
+                            <p class="movie-list-item-desc">Superman (Alan Tudyk), Wonder Woman (Michelle Monaghan), Batman (Jason O'Mara) and other superheroes join forces to save Earth from Darkseid</p>
+                            <button><a href="https://youtu.be/ui37YKQ9AC4?si=nRRFzHoH4McrPbU_" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/22.jpg" alt="">
+                            <span class="movie-list-item-title">Blue Beetle</span>
+                            <p class="movie-list-item-desc">Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab</p>
+                            <button><a href="https://youtu.be/TnzNEJTcXQk?si=QXy75itvsmNJQJPU" class="movie-list-item-button">Watch</a></button>
+                        </div>
+                        <!-- <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/23.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div> -->
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-container">
+            <h2 class="question">Who is the strongest?</h2>
+            <ul class="options">
+              <li data-correct="true">Batman</li>
+              <li>Lucifer</li>
+              <li>Superman</li>
+              <li>Aquaman</li>
+              <li>Flash </li>
+              <li>Wonder Woman</li>
+            </ul>
+          </div>    
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
